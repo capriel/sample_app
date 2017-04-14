@@ -1,0 +1,15 @@
+current directory: /Users/coca/workspace/sample_app/vendor/gems/bindex-0.5.0/ext/bindex
+/Users/coca/.rvm/rubies/ruby-2.4.0/bin/ruby -r ./siteconf20170414-26610-x45k2g.rb extconf.rb
+creating Makefile
+
+current directory: /Users/coca/workspace/sample_app/vendor/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" clean
+
+current directory: /Users/coca/workspace/sample_app/vendor/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR="
+compiling cruby.c
+linking shared-object bindex/cruby.bundle
+
+current directory: /Users/coca/workspace/sample_app/vendor/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 cruby.bundle ./.gem.20170414-26610-17llj27/bindex
